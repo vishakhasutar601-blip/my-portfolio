@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sutar Vishakha Vinod - Portfolio</title>
+    <!-- Importing a modern, clean font from Google Fonts -->
+    <link href="https://googleapis.com" rel="stylesheet">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Poppins', sans-serif; }
+        body { background-color: #f8fafc; color: #334155; line-height: 1.7; }
+        
+        /* Fixed Header Style with guaranteed line-height clearance */
+        header { 
+            background: linear-gradient(135deg, #0f172a, #1e3a8a); 
+            color: #fff; 
+            padding: 80px 20px; 
+            text-align: center;
+            overflow: visible;
+        }
+        header h1 { 
+            font-size: 3rem; 
+            font-weight: 700;
+            margin: 0 auto 12px auto; 
+            line-height: 1.3; 
+            letter-spacing: -0.5px;
+            background: linear-gradient(to right, #ffffff, #93c5fd);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        header p { 
+            font-size: 1.25rem; 
+            color: #93c5fd; 
+            margin-bottom: 25px;
+            font-weight: 400;
+            line-height: 1.4;
+        }
+        
+        .contact-info { font-size: 0.95rem; color: #cbd5e1; margin-bottom: 30px; font-weight: 300; }
+        .contact-info span { margin: 0 12px; display: inline-block; }
+        
+        /* Modernized Interactive Button */
+        .btn { 
+            display: inline-block; 
+            background: #38bdf8; 
+            color: #0f172a; 
+            padding: 12px 30px; 
+            text-decoration: none; 
+            border-radius: 30px; 
+            font-weight: 600; 
+            font-size: 0.95rem;
+            box-shadow: 0 4px 14px rgba(56, 189, 248, 0.3);
+            transition: all 0.3s ease; 
+        }
+        .btn:hover { background: #fff; color: #1e3a8a; transform: translateY(-3px); box-shadow: 0 6px 20px rgba(255, 255, 255, 0.2); }
+        
+        .container { max-width: 850px; margin: 50px auto; padding: 0 20px; }
+        
+        /* Beautiful Modern Cards */
+        section { 
+            background: #fff; 
+            padding: 40px; 
+            margin-bottom: 30px; 
+            border-radius: 16px; 
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03); 
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        section:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+        
+        h2 { color: #1e3a8a; margin-bottom: 25px; border-left: 4px solid #38bdf8; padding-left: 15px; font-size: 1.5rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; }
+        
+        .item { margin-bottom: 30px; border-bottom: 1px dashed #e2e8f0; padding-bottom: 20px; }
+        .item:last-child { margin-bottom: 0; border-bottom: none; padding-bottom: 0; }
+        .item h3 { font-size: 1.3rem; color: #1e293b; margin-bottom: 6px; font-weight: 600; }
+        
+        .item-meta { font-size: 0.95rem; color: #64748b; font-weight: 500; margin-bottom: 15px; display: flex; justify-content: space-between; flex-wrap: wrap; }
+        .item-meta span { color: #94a3b8; font-weight: 400; font-style: italic; }
+        
+        ul { margin-left: 20px; color: #475569; }
+        ul li { margin-bottom: 10px; font-size: 0.95rem; }
+        
+        /* Sleek Skill Badges */
+        .skills-grid { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 15px; }
+        .skill-tag { background: #f1f5f9; color: #1e3a8a; padding: 8px 16px; border-radius: 30px; font-size: 0.85rem; font-weight: 500; border: 1px solid #e2e8f0; transition: all 0.2s ease; }
+        .skill-tag:hover { background: #e0f2fe; border-color: #bae6fd; transform: scale(1.05); }
+        
+        .tech-used { margin-top: 15px; font-size: 0.9rem; color: #0369a1; background: #f0f9ff; padding: 10px 15px; border-radius: 8px; border-left: 3px solid #38bdf8; }
+        
+        /* Elegant Dark Footer */
+        footer { text-align: center; padding: 60px 20px; background: #0f172a; color: #94a3b8; margin-top: 80px; }
+        footer p { font-size: 0.95rem; }
+        footer .links { margin: 20px 0; }
+        footer a { color: #38bdf8; text-decoration: none; margin: 0 15px; font-weight: 500; transition: color 0.2s ease; }
+        footer a:hover { color: #fff; text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Sutar Vishakha Vinod</h1>
+        <p>B.Tech CSE (AI & ML) Student</p>
+        <div class="contact-info">
+            <span>📍 Pali, Maharashtra</span> | 
+            <span>📧 vishakhasutar601@gmail.com</span> | 
+            <span>📱 +91 9172463498</span>
+        </div>
+        <!-- Fixed: Direct link setup to open in browser web-Gmail app layout -->
+        <a href="https://google.com" target="_blank" class="btn">Hire Me / Get in Touch</a>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>Career Objective</h2>
+            <p>Enthusiastic 3rd-year B.Tech CSE (AIML) student with a strong curiosity for Machine Learning and Artificial Intelligence. Seeking an internship opportunity to apply my learning, gain hands-on industry experience, and contribute to real-world projects.</p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="item">
+                <h3>B.Tech in Computer Science & Engineering (AI & ML)</h3>
+                <div class="item-meta">Vishwaniketan Institute of Management, Engineering & Entrepreneurship <span>2024 – 2028 (Currently in 3rd Year)</span></div>
+            </div>
+            <div class="item">
+                <h3>Higher Secondary Certificate (12th)</h3>
+                <div class="item-meta">State Board<span>Score: 54%</span></div>
+            </div>
+            <div class="item">
+                <h3>Secondary School Certificate (10th)</h3>
+                <div class="item-meta">State Board<span>Score: 73%</span></div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Featured Projects</h2>
+            <div class="item">
+                <h3>Sensor-Based Car (Hardware & Robotics)</h3>
+                <div class="item-meta">College Robotics Value-Added Program</div>
+                <ul>
+                    <li>Built an autonomous sensor-controlled car as part of the college Robotics Value-Added Program.</li>
+                    <li>Programmed Arduino to integrate Ultrasonic and IR sensors for obstacle detection, distance measurement, and line-following navigation.</li>
+                    <li>Designed motor control logic to enable smooth movement based on real-time sensor inputs.</li>
+                    <li>Collaborated effectively in a team, gaining hands-on experience in hardware-software interaction and technical problem-solving.</li>
+                </ul>
+                <div class="tech-used"><strong>Technologies Used:</strong> Arduino, Ultrasonic Sensor (HC-SR04), IR Sensors, DC Motors, Motor Driver (L298N), Jumper Wires</div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Technical & Soft Skills</h2>
+            <div class="skills-grid">
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">HTML / CSS</span>
+                <span class="skill-tag">Machine Learning Basics</span>
+                <span class="skill-tag">Arduino IDE & Hardware</span>
+                <span class="skill-tag">Ultrasonic & IR Sensors</span>
+                <span class="skill-tag">IoT & Embedded Systems</span>
+                <span class="skill-tag">Robotics Fundamentals</span>
+                <span class="skill-tag">MS Excel</span>
+                <span class="skill-tag">Tally ERP</span>
+                <span class="skill-tag">Teamwork & Adaptability</span>
+                <span class="skill-tag">Problem Solving</span>
+            </div>
+        </section>
+
+        <section id="certifications">
+            <h2>Certifications</h2>
+            <ul>
+                <li>Value-Added Program in Robotics (Conducted by Vishwaniketan Institute)</li>
+                <li>MS-CIT (Maharashtra State Certificate in Information Technology) – MKCL</li>
+                <li>Tally ERP – Accounting Software</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>Connect with me:</p>
+        <div class="links">
+            <!-- Fixed: Direct link setup to open in browser web-Gmail app layout -->
+            <a href="https://google.com" target="_blank">Email Me</a> | 
+            <a href="https://github.com" target="_blank">GitHub Profile</a>
+        </div>
+        <p style="font-size: 0.8rem; color: #64748b; margin-top: 20px;">&copy; 2026 Sutar Vishakha Vinod. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
